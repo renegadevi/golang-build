@@ -15,32 +15,45 @@ Distributable only been tested on MacOS so far which is verified to work. Need t
 
 
 ## Screenshots
+
 |![Screenshot 2](screenshot-2.png)|![Screenshot 3](screenshot-3.png)|
 |-|-|
+
 
 
 ## Examples
 
 ### Default build command
 Generate source code archive and build (go build) for current platform
-`build`
+```bash
+./scripts/build.sh build
+
+# output
 build/v1.0.0_250202035351
 ├── LICENSE.txt
 ├── bin
 │   └── pulse-v1.0.0-arm64-darwin
 └── src
     └── pulse-v1.0.0-src.tar.gz
+```
 
 
 ## Build a source package
-`build --source`
+```bash
+./scripts/build.sh build --source
+
+# tree output
 build/v1.0.0_250202035145
 ├── LICENSE.txt
 └── pulse-v1.0.0-src.tar.gz
+```
 
 
 ## Build multi-platform executables
-`build --platforms linux/amd64,darwin/arm64`
+```bash
+./scripts/build.sh build --platforms linux/amd64,darwin/arm64
+
+# tree output
 build/v1.0.0_250202035111
 ├── LICENSE.txt
 ├── bin
@@ -48,11 +61,16 @@ build/v1.0.0_250202035111
 │   └── pulse-v1.0.0-arm64-darwin
 └── src
     └── pulse-v1.0.0-src.tar.gz
+```
 
 
 ## Build distributable packages
 Build binary and packaged distributable for the current OS. (In this case MacOS)
-`build --dist`
+
+```bash
+./scripts/build.sh build --dist
+
+# tree output
 build/v1.0.0_250202035131
 ├── LICENSE.txt
 ├── bin
@@ -63,3 +81,4 @@ build/v1.0.0_250202035131
 │       └── pulse.app
 └── src
     └── pulse-v1.0.0-src.tar.gz
+```
