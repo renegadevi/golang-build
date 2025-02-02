@@ -11,7 +11,7 @@ LINUX_DEPENDENCIES="systemd, network-manager"
 
 # macOS Signing Details
 APPLE_DEVELOPER_ID="Developer ID Application: Your Name"
-APPLE_ORGANIZATION_ID="com.codeofmagi"
+APPLE_ORGANIZATION_ID="com.yourorganizationname"
 APPLE_ID="your.email@example.com"
 APPLE_TEAM_ID="YOUR_TEAM_ID"
 APPLE_KEYCHAIN_PROFILE="AC_PASSWORD"
