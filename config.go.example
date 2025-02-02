@@ -1,0 +1,7 @@
+// config.go
+package main
+
+const (
+	AppName    = "pulse"
+	AppVersion = "1.0.0"
+)

@@ -8,6 +8,9 @@ Golang build script in shell script to create coherent binaries and cross-platfo
 ## Use/Installation
 Copy the scripts to your golang project, add a `LICENSE.txt` and define variables variables in `build.conf`.
 
+I'm in this case getting AppName and AppVersion from the `config.go`. If this is missing, it will still create a build folder. (If this is a good way to store global constants used in both application/build-tools in Golang I'm not sure yet)
+
+
 ## Status
 Currently in development. Regular build commands should work cross-platform. 
 
