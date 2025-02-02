@@ -1,0 +1,19 @@
+# General
+APP_DESCRIPTION="Software name for something"
+MAINTAINER_NAME="Your Name"
+MAINTAINER_EMAIL="email@example.com"
+
+# Linux Package Details
+LINUX_CATEGORY="System"
+LINUX_DEPENDENCIES="systemd, network-manager"
+
+# macOS Signing Details
+APPLE_DEVELOPER_ID="Developer ID Application: Your Name"
+APPLE_ORGANIZATION_ID="com.yourcompany"
+APPLE_ID="your.email@example.com"
+APPLE_TEAM_ID="YOUR_TEAM_ID"
+APPLE_KEYCHAIN_PROFILE="AC_PASSWORD"
+
+# Windows Details
+WIN_PUBLISHER="Your Company"
+WIN_COPYRIGHT="Copyright (c) 2025"
