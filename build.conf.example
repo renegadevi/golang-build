@@ -1,5 +1,7 @@
 # General
-APP_DESCRIPTION="Software name for something"
+APP_DESCRIPTION="My software description here"
+APP_COPYRIGHT="Copyright (c) 2025"
+APP_DEVELOPER_NAME="Your Company"
 MAINTAINER_NAME="Your Name"
 MAINTAINER_EMAIL="email@example.com"
 
@@ -9,11 +11,11 @@ LINUX_DEPENDENCIES="systemd, network-manager"
 
 # macOS Signing Details
 APPLE_DEVELOPER_ID="Developer ID Application: Your Name"
-APPLE_ORGANIZATION_ID="com.yourcompany"
+APPLE_ORGANIZATION_ID="com.codeofmagi"
 APPLE_ID="your.email@example.com"
 APPLE_TEAM_ID="YOUR_TEAM_ID"
 APPLE_KEYCHAIN_PROFILE="AC_PASSWORD"
+APPLE_ICON_PATH="icons/AppIcon.icns"
 
 # Windows Details
-WIN_PUBLISHER="Your Company"
-WIN_COPYRIGHT="Copyright (c) 2025"
+WIN_ICON_PATH="icons/windows.ico"
