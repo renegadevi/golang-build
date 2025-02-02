@@ -239,7 +239,7 @@ if [ "$goto_build_complete" != true ]; then
 
         # Generate checksums
         cd "${build_dir}/bin"
-        sha256sum * > checksums.txt
+        sha256sum -- * > checksums.txt
         echo -e "    ${GREEN}✓ Checksums generated${NC}"
         echo -e "\n    ${YELLOW}Checksums:${NC}"
         cat checksums.txt | sed 's/^/      /'
